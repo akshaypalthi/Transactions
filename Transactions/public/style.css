@@ -1,0 +1,84 @@
+/* body {
+    background: linear-gradient(rgb(255, 254, 254), gray);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("background.jpeg");
+    background-repeat: 'no-repeat';
+    background-position: 'center';
+    background-size: 'cover';
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: linear-gradient(rgb(238, 187, 153), #B2BEB5);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 600px;
+    margin: 50px auto;
+    /* background: #fff; */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.button-group {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#payment-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#payment-list ul li {
+    background-color: #e9ecef;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
